@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">WeatherApp</string>
+    
+    <!-- Search Bar -->
+    <string name="search_weather_title">Search Weather</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="city_placeholder">e.g., London, Paris</string>
+    <string name="search_content_description">Search</string>
+    
+    <!-- Weather Card -->
+    <string name="weather_icon_content_description">Weather icon for %s</string>
+    <string name="temperature_format">%d°C</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="wind_speed_label">Wind Speed</string>
+    <string name="humidity_format">%d%%</string>
+    <string name="wind_speed_format">%.1f m/s</string>
+    
+    <!-- Error Card -->
+    <string name="error_title">Something went wrong</string>
+    <string name="error_default_message">Please try again later or contact support if the issue persists.</string>
+    
+    <!-- Error Messages -->
+    <string name="error_network">Network connection error. Please check your internet connection.</string>
+    <string name="error_api_key">Weather service unavailable. Please try again later.</string>
+    <string name="error_city_not_found">City not found. Please check the city name and try again.</string>
+    <string name="error_server">Server error: %s</string>
+    <string name="error_unknown">An unexpected error occurred. Please try again.</string>
+    <string name="error_invalid_input">Invalid input. Please enter a valid city name.</string>
+    <string name="error_timeout">Request timeout. Please try again.</string>
 </resources>
